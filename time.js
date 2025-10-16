@@ -1,4 +1,3 @@
-<script>
 function updateClock() {
             // 現在時刻を取得
             var now = new Date();
@@ -21,4 +20,3 @@ function updateClock() {
         
         // ページ読み込み時に即座に表示
         window.onload = updateClock;
-</script>
